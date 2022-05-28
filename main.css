@@ -1,0 +1,140 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    
+}
+#wrapper>*{
+    padding-bottom: 1rem;
+}
+
+
+
+
+ul{
+
+ }
+
+ li{
+     cursor: pointer;
+     color:#1f3b44
+ }
+
+
+.todos{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+ form[name="login_signup"]{
+     border: 2px solid #b8c7a7;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+             flex-direction: column;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+ }
+ form[name="login_signup"] input{
+    border: 1px solid #1f3b44;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.8rem;
+}
+form[name="login_signup"] input:focus{
+    background-color: #b8c7a7;
+    outline: none;
+    color:#1f3b44;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+ .todo_con{
+     border: 1px solid #1f3b44;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+
+ }
+
+ .todo_con>*{
+     padding: 0.5rem;
+ }
+
+.primary{
+    background-color: #b8c7a7;
+    color: #1f3b44;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 8px;
+    margin: 2rem;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.primary:hover{
+    background-color: #1f3b44;
+    color: #b8c7a7;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+.outline{
+    background-color: transparent;
+    color: #1f3b44;
+    padding: 0.5rem 2rem;
+    border: 1px solid #1f3b44;
+    border-radius: 8px;
+    margin: 2rem;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.outline:hover{
+    background-color: #1f3b44;
+    color: #b8c7a7;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.text{
+    background-color: transparent;
+    color: #1f3b44;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 8px;
+    margin: 2rem;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.text:hover{
+
+    -webkit-transition: all 0.5s;
+
+    transition: all 0.5s;
+}
